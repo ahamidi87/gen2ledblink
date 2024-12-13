@@ -1,4 +1,3 @@
-
 module blinky(
     input clk_n,
     input clk_p,
@@ -15,10 +14,6 @@ module blinky(
         .I(clk_p ),
         .IB(clk_n)
     );
-
-
-
-// --> architecture
 
     // reg: signale innerhalb des modules
     // VHDL --> signal count: integer range 0 to 2^24 - 1
